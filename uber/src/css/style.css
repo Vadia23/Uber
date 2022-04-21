@@ -1,0 +1,188 @@
+*{
+    font-style: 'Roboto', sans-serif;
+}
+header{
+    position: relative;
+}
+nav{
+    height: 50px;
+    background: #212121;
+    
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 40px 13px 71px;
+    margin: 0;
+    list-style-type: none ;    
+}
+.fixed-top{
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+.menu .menuLink{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+.menu .menuItem{
+    border-right: 2px dotted black;
+    padding-right: 28px;
+}
+.subHeader{
+    margin-top: 50px;
+    position: absolute;
+    width: 100%;
+    height: 87px;
+    background: rgba(0, 0, 0, .6)
+    
+    
+}
+.subHeader .subheaderLogo {
+    display: block;
+    min-width: 100%;
+    margin-top: 17px;
+    
+}
+.subHeader .subheaderOfficial {
+    color: #FFFFFF;
+    font-weight: 100;
+    font-size: 13px;
+    opacity: 0.5;
+}
+.subHeader .subheaderCall {
+    margin-top: 19px;
+    font-weight: 300;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-align: right;
+}
+.subHeader .subheaderPhone {
+    display: block;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: right;
+    line-height: 12px;
+    margin-top: 8px;
+}
+.subHeader .subheaderBtn {
+    margin-top: 19px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    width: 172px;
+    height: 46px;  
+    border: none;
+    border-radius: 4px; 
+
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.promo{
+    min-height: 800px;
+    background: url(../img/uber_bg.jpg) center center/cover no-repeat; 
+    padding: 151.76px 0 185px 0;
+    
+}
+.promo .promoHeader{
+    font-weight: 900;
+    color: #FFFFFF;
+    font-size: 60px;
+    text-transform: uppercase;
+    line-height: 70px;
+    margin: 0;
+    text-align: center;
+}
+.promo .promoSubheader{
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 36px;
+    text-transform: uppercase;
+    line-height: 36px;
+    margin: 0;
+    text-align: center;
+}
+.promo .promoDescr {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 20px;
+}
+.promo .promoBtn{
+    display: block;
+    margin: 115px auto 0 auto;
+    width: 259px;
+    height: 63px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.separator {
+    display: flex;   
+    justify-content: center;
+    align-items: center; 
+    margin: 18px 513px 33px 514px;
+    width: 113px;
+    height: 24px;
+    background-color: black;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 11px;     
+    text-transform: uppercase;
+}
+.benefits{
+    color: #222222;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.reasonCard .card-title{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #1EACC7;
+}
+.reasonCard .card-text {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    color: #202020;
+}
+.reasonCard .reasonFoto{
+    width: 116px;
+    height: 116px;
+
+}
+.reasonCard .col-md-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reasonCard{
+    padding-top: 17px;
+    height: 200px;
+}
+.colReasonLeft, .colReasonRight{
+    justify-content: center;
+}
+.colReasonRight{
+    padding-left: 30px;
+}
+
+
